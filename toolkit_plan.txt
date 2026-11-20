@@ -1,0 +1,24 @@
+PYTHON TOOLKIT PLAN
+
+1. TOOLS & DESCRIPTIONS
+- Tool 1: Simple Calculator — Takes two numbers and an operator from the user to compute and display the result.
+- Tool 2: To-Do List Manager — Lets the user add tasks, view saved tasks, and remove completed items from a list.
+- Tool 3: Number-Guessing Game — Generates a secret number and gives the user repeated guesses with higher or lower hints until they win.
+
+2. EXACT MENU TEXT
+
+   WELCOME TO MY PYTHON TOOLKIT
+
+Please choose a tool:
+1. Simple Calculator
+2. To-Do List Manager
+3. Number-Guessing Game
+4. Exit
+
+Enter your choice (1-4): 
+
+3. CONCEPTS USED BY EACH TOOL
+- Main Menu: while loop (to keep the program running until Exit), if/elif/else conditionals (to route choices), f-strings.
+- Tool 1 (Simple Calculator): if/elif/else conditionals (to check +, -, *, /), user input, float conversion, f-strings.
+- Tool 2 (To-Do List Manager): list (to store tasks), while loop, for loop (to print numbered tasks), if/elif/else conditionals, f-strings.
+- Tool 3 (Number-Guessing Game): while loop (to repeat guesses), if/elif/else conditionals (to give higher/lower hints), random module, f-strings.
